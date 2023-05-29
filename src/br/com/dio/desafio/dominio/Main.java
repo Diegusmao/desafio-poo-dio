@@ -1,17 +1,11 @@
+package br.com.dio.desafio.dominio;
 
 
 import java.time.LocalDate;
 
-import br.com.dio.desafio.dominio.Bootcamp;
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Dev;
-import br.com.dio.desafio.dominio.Mentoria;
-
 public class Main {
-   
-	public static void main(String[] args) {
-       
-		Curso curso1 = new Curso();
+    public static void main(String[] args) {
+        Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
         curso1.setDescricao("descrição curso java");
         curso1.setCargaHoraria(8);
